@@ -20,15 +20,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        Button button2 = findViewById(R.id.button2);
-        button2.setOnClickListener(new View.OnClickListener() {
 
-                                       public void onClick(View v) {
-                                           // Code here executes on main thread after user presses button
-                                           Log.d("shefu", "button is working");
-                                           setContentView(R.layout.activity_login);
-                                       }
-                                   }
-        );
+        Button login = findViewById(R.id.login);
+        login.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Log.d("katrin", "button is working");
+                setContentView(R.layout.activity_login);
+            }
+        });
+
     }
 }
