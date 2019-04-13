@@ -18,13 +18,7 @@ public class login extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        Button back = findViewById(R.id.back);
-        back.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Log.d("katrin", "back button pressed");
-                setContentView(R.layout.activity_main);
-            }
-        });
+
 
 
     }
