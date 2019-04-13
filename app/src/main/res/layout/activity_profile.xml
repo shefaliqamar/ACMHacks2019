@@ -21,7 +21,7 @@
         tools:srcCompat="@tools:sample/avatars[5]" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/name"
         android:layout_width="162dp"
         android:layout_height="61dp"
         android:layout_marginTop="8dp"
@@ -36,7 +36,7 @@
         app:layout_constraintVertical_bias="0.044" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/occupation"
         android:layout_width="165dp"
         android:layout_height="60dp"
         android:layout_marginTop="8dp"
@@ -51,7 +51,7 @@
         app:layout_constraintVertical_bias="0.177" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/hackerstats"
         android:layout_width="195dp"
         android:layout_height="52dp"
         android:layout_marginTop="8dp"
@@ -66,7 +66,7 @@
         app:layout_constraintVertical_bias="0.44" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/hackathons"
         android:layout_width="210dp"
         android:layout_height="56dp"
         android:layout_marginTop="8dp"
@@ -93,10 +93,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.663" />
+        app:layout_constraintVertical_bias="0.69" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/areasofinterest"
         android:layout_width="350dp"
         android:layout_height="77dp"
         android:layout_marginStart="28dp"
@@ -109,5 +109,50 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.315" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="87dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="532dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="92dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="532dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/notifications"
+        android:layout_width="84dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="532dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="alerts"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.665"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

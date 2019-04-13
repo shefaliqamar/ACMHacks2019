@@ -1,5 +1,6 @@
 package com.example.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -24,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
         Button login = findViewById(R.id.login);
         login.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Profile.class));
                 Log.d("katrin", "button is working");
-                setContentView(R.layout.activity_profile);
             }
         });
     }
