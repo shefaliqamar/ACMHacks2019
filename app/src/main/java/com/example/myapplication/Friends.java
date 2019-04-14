@@ -44,5 +44,6 @@ public class Friends extends AppCompatActivity {
                 finish();
             }
         });
+        
     }
 }
