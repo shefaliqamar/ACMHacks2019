@@ -23,14 +23,33 @@ public class Hackathons extends AppCompatActivity {
         Button profile = findViewById(R.id.profile);
         profile.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Log.d("katrin", "pressed search button from home");
                 startActivity(new Intent(Hackathons.this, Profile.class));
+                finish();
+            }
+        });
+
+        // Button between Hackathons and Resources
+        Button resources = findViewById(R.id.resources);
+        resources.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Hackathons.this, Resources.class));
+                finish();
+            }
+        });
+
+        // Button between Hackathons and Friends
+        Button friends = findViewById(R.id.friends);
+        resources.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(Hackathons.this, Friends.class));
                 finish();
             }
         });
 
 
         texx = (TextView) findViewById(R.id.scrapeBox1);
+
+
         Button but = (Button) findViewById(R.id.scrapeButton);
 
         but.setOnClickListener(new View.OnClickListener() {
@@ -48,8 +67,6 @@ public class Hackathons extends AppCompatActivity {
             try {
                 Document doc = Jsoup.connect("https://mlh.io/seasons/na-2019/events").get();
                 words = doc.text();
-
-
             } catch(Exception e){e.printStackTrace();}
 
             return null;
@@ -58,6 +75,16 @@ public class Hackathons extends AppCompatActivity {
         @Override
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
+            for(int i = 0; i < words.length() - 4; i++){
+                if(words.substring(i, i+4).equals("beta")){
+                    words = words.substring(i+6, words.length()/6);
+                }
+            }
+            for(int i = 0; i < words.length() - 1; i++){
+                if(words.substring(i, i+1).equals(",")){
+                    words = words.substring(0, i+5) + "\n" + words.substring(i+5, words.length());
+                }
+            }
             texx.setText(words);
         }
     }

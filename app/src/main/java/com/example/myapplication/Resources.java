@@ -41,5 +41,29 @@ public class Resources extends AppCompatActivity {
                 finish();
             }
         });
+
+        Button github = findViewById(R.id.github);
+        github.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(Resources.this, Github.class));
+                finish();
+            }
+        });
+
+        Button devpost = findViewById(R.id.devpost);
+        devpost.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(Resources.this, Devpost.class));
+                finish();
+            }
+        });
+
+        Button slack = findViewById(R.id.slack);
+        slack.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(Resources.this, Slack.class));
+                finish();
+            }
+        });
     }
 }
