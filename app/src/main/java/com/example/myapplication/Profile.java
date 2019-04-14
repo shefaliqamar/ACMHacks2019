@@ -25,7 +25,7 @@ public class Profile extends AppCompatActivity {
             }
         });
 
-        /*
+
         Button hackathons = findViewById(R.id.hackathons);
         hackathons.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -33,6 +33,6 @@ public class Profile extends AppCompatActivity {
                 finish();
             }
         });
-        */
+
     }
 }
