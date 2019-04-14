@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/me"
+        android:id="@+id/profile"
         android:layout_width="87dp"
         android:layout_height="63dp"
         android:layout_marginStart="8dp"
@@ -37,7 +37,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/search"
+        android:id="@+id/friends"
         android:layout_width="87dp"
         android:layout_height="64dp"
         android:layout_marginStart="8dp"

@@ -16,21 +16,23 @@ public class Profile extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
         Log.d("katrin", "inside profile.java");
 
-        Button search = findViewById(R.id.search);
-        search.setOnClickListener(new View.OnClickListener() {
+        Button friends = findViewById(R.id.friends);
+        friends.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Log.d("katrin", "search button pressed");
-                startActivity(new Intent(Profile.this, Search.class));
+                Log.d("katrin", "friends button pressed from profile class");
+                startActivity(new Intent(Profile.this, Friends.class));
                 finish();
             }
         });
 
-        Button home = findViewById(R.id.home);
-        home.setOnClickListener(new View.OnClickListener() {
+        /*
+        Button hackathons = findViewById(R.id.hackathons);
+        hackathons.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(Profile.this, Home.class));
+                startActivity(new Intent(Profile.this, Hackathons.class));
                 finish();
             }
         });
+        */
     }
 }

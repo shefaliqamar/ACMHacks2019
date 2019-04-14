@@ -7,13 +7,13 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-public class Search extends AppCompatActivity {
+public class Friends extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_search);
-        Log.d("katrin", "in search class");
+        setContentView(R.layout.activity_friends);
+        Log.d("katrin", "in friends class");
 
 
         // Creates a button in Search view to click on Profile
@@ -21,19 +21,20 @@ public class Search extends AppCompatActivity {
         profile.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Log.d("katrin", "button is working");
-                startActivity(new Intent(Search.this, Profile.class));
+                startActivity(new Intent(Friends.this, Profile.class));
                 finish();
             }
         });
 
-
+        /*
         // Creates a button in Search view to click on Home
         Button home = findViewById(R.id.home);
         home.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                startActivity(new Intent(Search.this, Home.class));
+                startActivity(new Intent(Friends.this, Hackathons.class));
                 finish();
             }
         });
+        */
     }
 }
