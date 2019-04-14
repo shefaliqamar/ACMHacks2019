@@ -56,8 +56,8 @@
         android:layout_width="257dp"
         android:layout_height="58dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="116dp"
-        android:layout_marginRight="116dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginRight="104dp"
         android:layout_marginBottom="8dp"
         android:text="HACKATHONS"
         android:textColor="@color/colorAccent"
@@ -65,21 +65,22 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.073" />
+        app:layout_constraintVertical_bias="0.112" />
 
     <TextView
         android:id="@+id/scrapeBox1"
         android:layout_width="246dp"
         android:layout_height="481dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="124dp"
-        android:layout_marginRight="124dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
         android:layout_marginBottom="8dp"
         android:scrollbarAlwaysDrawHorizontalTrack="false"
         android:text="Click update to see upcoming hackathons! These are all hackathons with prizes and sponsors, including a large contribution from Major League Hacking. All information is scraped from the Major League Hacking website. Browse the Resources and Friends tabs to get help with using technologies and to meet others going to the same hackathons! Happy Hacking!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.696" />
 
     <Button
         android:id="@+id/scrapeButton"
