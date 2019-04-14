@@ -12,12 +12,11 @@
         android:layout_height="62dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="532dp"
+        android:layout_marginTop="612dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="resources"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.581"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -27,12 +26,12 @@
         android:layout_height="63dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="532dp"
+        android:layout_marginTop="608dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="Me"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintHorizontal_bias="0.944"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -42,12 +41,12 @@
         android:layout_height="64dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="532dp"
+        android:layout_marginTop="612dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="friends"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.09"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -72,23 +71,23 @@
         android:layout_width="246dp"
         android:layout_height="481dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="116dp"
-        android:layout_marginRight="116dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
         android:layout_marginBottom="8dp"
         android:scrollbarAlwaysDrawHorizontalTrack="false"
         android:text="Click update to see upcoming hackathons! These are all hackathons with prizes and sponsors, including a large contribution from Major League Hacking. All information is scraped from the Major League Hacking website. Browse the Resources and Friends tabs to get help with using technologies and to meet others going to the same hackathons! Happy Hacking!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.696" />
+        app:layout_constraintVertical_bias="0.756" />
 
     <Button
         android:id="@+id/scrapeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:text="Update"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
