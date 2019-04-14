@@ -3,6 +3,15 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_login">login</string>
     <string name="title_activity_home">Home</string>
+    <string name="Github">
+        <a href="https://github.com">Take me there!</a>
+    </string>
+    <string name="Devpost">
+        <a href="https://devpost.com">Lets go!</a>
+    </string>
+    <string name="Slack">
+        <a href="https://slack.com">Onwards!</a>
+    </string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 

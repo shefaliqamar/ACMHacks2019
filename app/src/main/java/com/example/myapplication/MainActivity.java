@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        Button login = findViewById(R.id.login);
+        Button login = findViewById(R.id.buttonLogin);
         login.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, Profile.class));
@@ -36,6 +36,36 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        Button signup = findViewById(R.id.buttonSignUp);
+        signup.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, signup.class));
+                Log.d("katrin", "login button was pressed");
+                finish();
+            }
+        });
+
+
+        /*
+        Button login = findViewById(R.id.login);
+        login.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, login2.class));
+                Log.d("katrin", "login button was pressed");
+                finish();
+            }
+        });
+
+        Button signup = findViewById(R.id.signup);
+        login.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, signup.class));
+                Log.d("katrin", "login button was pressed");
+                finish();
+            }
+        });
+        */
 
 
     }

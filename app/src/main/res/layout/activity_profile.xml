@@ -6,29 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".Profile">
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.051"
-        tools:srcCompat="@tools:sample/avatars[5]" />
-
     <TextView
         android:id="@+id/name"
         android:layout_width="162dp"
-        android:layout_height="61dp"
+        android:layout_height="56dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginRight="28dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginRight="220dp"
         android:layout_marginBottom="8dp"
-        android:text="Name"
+        android:text="Katrin Pistor"
+        android:textColor="@color/design_default_color_primary_dark"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,18 +24,34 @@
 
     <TextView
         android:id="@+id/occupation"
-        android:layout_width="165dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
+        android:layout_width="148dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="232dp"
+        android:layout_marginRight="232dp"
+        android:layout_marginBottom="600dp"
+        android:text="Student at UCSC"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/occupation2"
+        android:layout_width="148dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="232dp"
+        android:layout_marginRight="232dp"
         android:layout_marginBottom="8dp"
-        android:text="Occupation"
+        android:text="kpistor@ucsc.edu"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.177" />
+        app:layout_constraintVertical_bias="0.052" />
 
     <TextView
         android:id="@+id/hackerstats"
@@ -58,7 +61,8 @@
         android:layout_marginEnd="188dp"
         android:layout_marginRight="188dp"
         android:layout_marginBottom="8dp"
-        android:text="Hacker Stats"
+        android:text="Hacker Statistics"
+        android:textColor="@color/colorPrimary"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,18 +71,18 @@
 
     <TextView
         android:id="@+id/hackathon1"
-        android:layout_width="210dp"
-        android:layout_height="56dp"
+        android:layout_width="246dp"
+        android:layout_height="59dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="172dp"
-        android:layout_marginRight="172dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginRight="136dp"
         android:layout_marginBottom="8dp"
-        android:text="Hackathon #1"
+        android:text="Hackathon #1: ACM Hacks"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.555" />
+        app:layout_constraintVertical_bias="0.568" />
 
     <TextView
         android:id="@+id/hackathon2"
@@ -88,7 +92,7 @@
         android:layout_marginEnd="172dp"
         android:layout_marginRight="172dp"
         android:layout_marginBottom="8dp"
-        android:text="Hackathon #2"
+        android:text="Hackathon #2: CruzHacks"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -103,12 +107,13 @@
         android:layout_marginLeft="28dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Areas of Interest:"
+        android:text="Areas of Interest: Data Science, AI, Machine Learning"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.315" />
+        app:layout_constraintVertical_bias="0.299" />
 
     <Button
         android:id="@+id/friends"
