@@ -16,6 +16,17 @@ public class Profile extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
         Log.d("katrin", "inside profile.java");
 
+        // Button between Profile and Hackathons
+        Button hackathons = findViewById(R.id.hackathons);
+        hackathons.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Profile.this, Hackathons.class));
+                finish();
+            }
+        });
+
+        // Button between Profile and Friends
         Button friends = findViewById(R.id.friends);
         friends.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -26,10 +37,13 @@ public class Profile extends AppCompatActivity {
         });
 
 
-        Button hackathons = findViewById(R.id.hackathons);
-        hackathons.setOnClickListener(new View.OnClickListener() {
+
+        // Button between Profile and Resources
+        Button resources = findViewById(R.id.resources);
+        resources.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick(View v) {
-                startActivity(new Intent(Profile.this, Hackathons.class));
+                startActivity(new Intent(Profile.this, Resources.class));
                 finish();
             }
         });
