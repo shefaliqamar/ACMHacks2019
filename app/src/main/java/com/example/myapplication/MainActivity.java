@@ -26,7 +26,8 @@ public class MainActivity extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, Profile.class));
-                Log.d("katrin", "button is working");
+                Log.d("katrin", "login button was pressed");
+                finish();
             }
         });
     }

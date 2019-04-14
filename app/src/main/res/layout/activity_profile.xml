@@ -66,7 +66,7 @@
         app:layout_constraintVertical_bias="0.44" />
 
     <TextView
-        android:id="@+id/hackathons"
+        android:id="@+id/hackathon1"
         android:layout_width="210dp"
         android:layout_height="56dp"
         android:layout_marginTop="8dp"
@@ -81,7 +81,7 @@
         app:layout_constraintVertical_bias="0.555" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/hackathon2"
         android:layout_width="210dp"
         android:layout_height="56dp"
         android:layout_marginTop="8dp"
@@ -127,8 +127,8 @@
 
     <Button
         android:id="@+id/hackathons"
-        android:layout_width="92dp"
-        android:layout_height="63dp"
+        android:layout_width="140dp"
+        android:layout_height="59dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="532dp"
@@ -136,22 +136,22 @@
         android:layout_marginRight="8dp"
         android:text="Hackathons"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintHorizontal_bias="0.384"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/notifications"
-        android:layout_width="84dp"
-        android:layout_height="65dp"
+        android:id="@+id/resources"
+        android:layout_width="133dp"
+        android:layout_height="60dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="532dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="alerts"
+        android:text="resources"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.665"
+        app:layout_constraintHorizontal_bias="0.938"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

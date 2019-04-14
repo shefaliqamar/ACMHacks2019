@@ -7,17 +7,17 @@
     tools:context=".Home">
 
     <Button
-        android:id="@+id/notifications"
-        android:layout_width="84dp"
-        android:layout_height="65dp"
+        android:id="@+id/friends"
+        android:layout_width="137dp"
+        android:layout_height="62dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="532dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="alerts"
+        android:text="Friends"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.665"
+        app:layout_constraintHorizontal_bias="0.581"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,7 +37,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/friends"
+        android:id="@+id/resources"
         android:layout_width="87dp"
         android:layout_height="64dp"
         android:layout_marginStart="8dp"
@@ -45,7 +45,7 @@
         android:layout_marginTop="532dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="Search"
+        android:text="resources"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

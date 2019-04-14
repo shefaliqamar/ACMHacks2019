@@ -16,7 +16,7 @@ public class Friends extends AppCompatActivity {
         Log.d("katrin", "in friends class");
 
 
-        // Creates a button in Search view to click on Profile
+        // Button between Friends and Profile
         Button profile = findViewById(R.id.profile);
         profile.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -26,15 +26,23 @@ public class Friends extends AppCompatActivity {
             }
         });
 
-        /*
-        // Creates a button in Search view to click on Home
-        Button home = findViewById(R.id.home);
-        home.setOnClickListener(new View.OnClickListener(){
+
+        // Button between Friends and Hackathons
+        Button hackathons = findViewById(R.id.hackathons);
+        hackathons.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 startActivity(new Intent(Friends.this, Hackathons.class));
                 finish();
             }
         });
-        */
+
+        // Button between Friends and Resources
+        Button resources = findViewById(R.id.resources);
+        resources.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(Friends.this, Resources.class));
+                finish();
+            }
+        });
     }
 }
