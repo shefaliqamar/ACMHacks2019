@@ -7,20 +7,24 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-public class Home extends AppCompatActivity {
+public class Hackathons extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_hackathons);
 
-        Button search = findViewById(R.id.search);
-        search.setOnClickListener(new View.OnClickListener() {
+        // Button between Hackathons and Profiles
+        Button profile = findViewById(R.id.profile);
+        profile.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Log.d("katrin", "pressed search button from home");
-                startActivity(new Intent(Home.this, Search.class));
+                startActivity(new Intent(Hackathons.this, Profile.class));
                 finish();
             }
         });
+
+
+
     }
 }

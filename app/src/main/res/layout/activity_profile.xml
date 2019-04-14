@@ -111,7 +111,7 @@
         app:layout_constraintVertical_bias="0.315" />
 
     <Button
-        android:id="@+id/search"
+        android:id="@+id/friends"
         android:layout_width="87dp"
         android:layout_height="64dp"
         android:layout_marginStart="8dp"
@@ -119,14 +119,14 @@
         android:layout_marginTop="532dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="Search"
+        android:text="Friends"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/home"
+        android:id="@+id/hackathons"
         android:layout_width="92dp"
         android:layout_height="63dp"
         android:layout_marginStart="8dp"
@@ -134,7 +134,7 @@
         android:layout_marginTop="532dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="Home"
+        android:text="Hackathons"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
